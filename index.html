@@ -2,22 +2,58 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="presentation">
-        <div class="presentation container">
-            <div>
-               <h1>Olá,</h1>
-                <h1>meu nome é</h1>
-                <h1>Robson</h1>
-                <a href="#" type="button" class="cta">Portfólio</a> 
+    <header>
+        <a href="index.html" class="logo"><span>P</span>ortifólio</a>
+        <ul class="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="projetos/Zelda/index.html">Zelda</a></li>
+            <li><a href="projetos/PlayStation/index.html">PlayStation</a></li>
+            <li><a href="projetos/Paraty/index.html">Paraty</a></li>
+            <li><a href="projetos/NeymarJr/index.html">Neymar Jr</a></li>
+            <li><a href="projetos/Pousada/index.html">Pousada</a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <span>INTO</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-text">
+            <span>Estudante Programação Front-End</span>
+            <h1>Robson Silva</h1>
+            <p>Busco uma emocionante transição de carreira para a área de tecnologia como programador front-end, onde poderei aplicar minha experiência com trabalho em equipe para criar soluções digitais inovadoras e intuitivas. Estou entusiasmado para enfrentar novos desafios, aprender rapidamente e contribuir de forma significativa para o desenvolvimento de sites e aplicativos de alta qualidade.</p>
+            <div class="main-btn">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn two">Hide me now</a>
             </div>
-            
+        </div>
+        
+
+        <div class="home-img">            
+            <img src="img/home.png" alt="Foto Programador">
         </div>
     </section>
+
+    <div class="share">
+        <p>Contatos:</p>
+        <div class="social">
+            <a href="https://github.com/DasLopes" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/daslopes/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>                     
+            <a href="mailto:daslopes@outlook.com.br"><i class='bx bxs-envelope' ></i></a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
