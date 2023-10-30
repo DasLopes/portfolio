@@ -49,6 +49,8 @@ header {
 
 .navbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar a {
@@ -168,7 +170,7 @@ section {
   transform: translateY(-10px);
 }
 
-@media screen and (max-width: 1850px) {
+media screen and (max-width: 1850px) {
   header,
   section,
   .share {
@@ -185,7 +187,7 @@ section {
   }
 }
 
-@media screen and (max-width: 1370px) {
+@media screen and (min-width: 1201px) {
   :root {
     --big-font: 5rem;
     --p-font: 1rem;
@@ -198,29 +200,32 @@ section {
     transition: 0.2s;
   }
   header {
-    padding: 15px 4%;
+    padding: 15px 8%;
   }
   section {
-    padding: 0 4%;
+    padding: 0 8%;
   }
   .share {
-    left: 4%;
+    left: 8%;
   }
   
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
   :root {
-    --big-font: 4rem;
+    --big-font: 3rem;
     --p-font: 1rem;
     transition: 0.2s;
+  }
+  .home-text span{
+    font-size: 12px;
   }
   .navbar a {
     margin: 0 15px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
   .share {
     display: none;
   }
@@ -251,7 +256,7 @@ section {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .logo{
     display: none;
   }
@@ -263,12 +268,15 @@ section {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   :root{
-    --big-font: 4rem;
+    --big-font: 3.5rem;
     --p-font:15px;
     transition: .2s;
-  }  
+  }
+  .navbar a{
+    margin: 0 10px;
+  }
 }
 
 .home-img img{
