@@ -256,7 +256,14 @@ section {
     --big-font: 3rem;
     --p-font:15px;
     transition: .2s;
-  }  
+  }
+  .navbar{       
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;    
+  }
 }
 
 .home-img img{
