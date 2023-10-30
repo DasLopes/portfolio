@@ -51,13 +51,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 
 .navbar a {
   font-size: var(--p-font);
   font-weight: 500;
-  color: var(--text-color);
-  margin: 0 25px;
+  color: var(--text-color);  
   transition: all ease 0.5s;
 }
 
@@ -256,10 +256,7 @@ section {
     --big-font: 3rem;
     --p-font:15px;
     transition: .2s;
-  }
-  .navbar a{
-    margin: 0 5px;
-  }
+  }  
 }
 
 .home-img img{
