@@ -253,12 +253,12 @@ section {
 
 @media screen and (max-width: 480px) {
   :root{
-    --big-font: 3.5rem;
+    --big-font: 3rem;
     --p-font:15px;
     transition: .2s;
   }
   .navbar a{
-    margin: 0 10px;
+    margin: 0 5px;
   }
 }
 
