@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="nav-portfolio"><a href="index.html" class="logo"><span>P</span>ortifólio</a></nav>
-        <nav class="nav-links">
-            <ul class="navbar">
-                <li><a href="projetos/PlayStation/index.html">PlayStation</a></li>
-                <li><a href="projetos/Paraty/index.html">Paraty</a></li>
-                <li><a href="projetos/NeymarJr/index.html">Neymar</a></li>
-                <li><a href="projetos/Pousada/index.html">Pousada</a></li>
-            </ul>
-        </nav>       
+      <nav class="nav-portfolio">
+        <a href="index.html" class="logo"><span>P</span>ortifólio</a>
+      </nav>
+      <nav class="nav-links">
+        <ul class="navbar">
+          <li><a href="projetos/PlayStation/index.html">PlayStation</a></li>
+          <li><a href="projetos/Paraty/index.html">Paraty</a></li>
+          <li><a href="projetos/NeymarJr/index.html">Neymar</a></li>
+          <li><a href="projetos/Pousada/index.html">Pousada</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="home">        
-            <span>Estudante Programação Front-End</span>
-            <h1>Robson Silva</h1>
-            <p>Busco uma oportunidade de transição para  programador front-end, onde poderei aplicar minha experiência com trabalho em equipe. Estou entusiasmado para enfrentar novos desafios, aprender rapidamente e contribuir de forma significativa.</p>            
-            <div class="main-btn">                
-                <a href="curriculo/curriculo.pdf" class="btn" download="curriculo">Download CV</a>                
-            </div>
-            <figure class="home-img">            
-                <img src="img/home.png" alt="Foto Programador">
-            </figure>
-        </section>
+      <section>
+        <span class="profissao">Estudante Programação Front-End</span>
+        <h1 class="nome">Robson Silva</h1>
+        <p class="descricao">
+          Busco uma oportunidade de transição para programador front-end, onde
+          poderei aplicar minha experiência com trabalho em equipe. Estou
+          entusiasmado para enfrentar novos desafios, aprender rapidamente e
+          contribuir de forma significativa.
+        </p>       
+      </section>
+      <figure class="home-img">
+        <img src="img/home.png" alt="Foto Programador" />
+      </figure>
     </main>
-
-    <div class="share">
-        <p>Contatos:</p>
-        <div class="social">
-            <a href="https://github.com/DasLopes" target="_blank"><i class='bx bxl-github' ></i></a>
-            <a href="https://www.linkedin.com/in/daslopes/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>                     
-            <a href="mailto:daslopes@outlook.com.br"><i class='bx bxs-envelope' ></i></a>
-        </div>
-    </div>
+    <footer class="rodape">
+      <nav>
+        <ul class="navbar-endereco">
+          <li>
+            <a href="https://github.com/DasLopes" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/daslopes/" target="_blank"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:daslopes@outlook.com.br"
+              ><i class="bx bxs-envelope"></i
+            ></a>
+          </li>
+          <li><a href="curriculo/curriculo.pdf" download="download"><i class='bx bxs-cloud-download'></i></a></li>
+        </ul>
+      </nav>
+    </footer>
+    
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/script.js"></script>
-</body>
+    
+  </body>
 </html>

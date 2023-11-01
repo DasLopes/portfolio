@@ -1,15 +1,13 @@
 let sr = ScrollReveal({
-    distance: '40px',
-    duration: 2500,
-    reset: true
+  distance: "40px",
+  duration: 2500,
+  reset: true,
 });
 
-sr.reveal('.logo',{ delay:200, origin: 'left'});
-sr.reveal('.navbar',{ delay: 400, origin: 'top' });
-sr.reveal('.menu-btn', { delay: 520, origin: 'right' });
-sr.reveal('.home-text span', { delay: 600, origin: 'top' });
-sr.reveal('.home-text h1',{delay: 680, origin: 'left'});
-sr.reveal('.home-text p', { delay: 750, origin: 'right' });
-sr.reveal('.main-btn', { delay: 860, origin: 'left' });
-sr.reveal('.share', { delay: 950, origin: 'bottom' });
-sr.reveal('.home-img', {delay: 1000, origin: 'right'});
+sr.reveal(".nav-portfolio", { delay: 200, origin: "left" });
+sr.reveal(".navbar", { delay: 400, origin: "top" });
+sr.reveal(".profissao", { delay: 520, origin: "right" });
+sr.reveal(".nome", { delay: 680, origin: "left" });
+sr.reveal(".descricao", { delay: 750, origin: "right" });
+sr.reveal(".rodape", { delay: 950, origin: "bottom" });
+sr.reveal(".home-img", { delay: 1000, origin: "right" });
